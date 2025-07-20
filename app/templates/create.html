@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+    <title>Student Database</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</head>
+<body>
+    <h1>Create Student</h1>
+    <form method="post">
+        ID: <input type="text" name="id"><br>
+        Name: <input type="text" name="name"><br>
+        Age: <input type="text" name="age"><br>
+        Grade: <input type="text" name="grade"><br>
+        <input type="submit" value="Create">
+    </form>
+</body>
+</html>

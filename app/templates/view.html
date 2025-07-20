@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+    <title>Student Database</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</head>
+<body>
+    <h1>Student Details</h1>
+    <p><strong>ID:</strong> {{ student.ID }}</p>
+    <p><strong>Name:</strong> {{ student.Name }}</p>
+    <p><strong>Age:</strong> {{ student.Age }}</p>
+    <p><strong>Grade:</strong> {{ student.Grade }}</p>
+    <a href="/">Back</a>
+</body>
+</html>
